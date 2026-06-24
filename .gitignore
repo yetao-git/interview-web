@@ -8,4 +8,4 @@ dist/
 openspec/
 tests/
 logs/
-data_local/
+data/
