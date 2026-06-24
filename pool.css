@@ -1,0 +1,277 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 28px 0;
+}
+
+.pool-search-input {
+  flex: 1;
+  max-width: 320px;
+  padding: 10px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #1f2937;
+  background: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pool-search-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.pool-search-input::placeholder {
+  color: #9ca3af;
+}
+
+.clear-search-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #6b7280;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clear-search-button:hover {
+  background: #f3f4f6;
+  border-color: #9ca3af;
+  color: #374151;
+}
+
+.pool-stats {
+  display: flex;
+  gap: 16px;
+  padding: 16px 28px 0;
+  flex-wrap: wrap;
+}
+
+.pool-stat-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: #f3f4f6;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #374151;
+}
+
+.pool-stat-value {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.pool-table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+  background: #ffffff;
+}
+
+.pool-table thead,
+.pool-table tbody {
+  background: #ffffff;
+}
+
+.pool-table th,
+.pool-table td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.pool-table th {
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+  background: #f9fafb;
+  white-space: nowrap;
+}
+
+.pool-table td {
+  color: #4b5563;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.pool-table tr:hover td {
+  background: #f9fafb;
+}
+
+.pool-user-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #e0e7ff;
+  color: #4338ca;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.add-user-button {
+  background: #e0e7ff;
+  color: #4338ca;
+  border: 1px solid #c7d2fe;
+  border-radius: 10px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.add-user-button:hover {
+  background: #c7d2fe;
+  border-color: #a5b4fc;
+}
+
+.pool-empty-row td {
+  height: auto;
+  padding: 48px 12px;
+  text-align: center;
+  color: #9ca3af;
+}
+
+.pool-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 28px 24px;
+  color: #6b7280;
+  font-size: 13px;
+}
+
+/* 密码模态框样式 */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.modal-content h2 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.modal-content p {
+  margin: 0 0 16px 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.modal-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #1f2937;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.modal-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.modal-tip {
+  margin-top: 6px;
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.modal-error {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  color: #b91c1c;
+  font-size: 13px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.modal-button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.modal-button-cancel {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.modal-button-cancel:hover {
+  background: #e5e7eb;
+}
+
+.modal-button-submit {
+  background: #2563eb;
+  color: white;
+}
+
+.modal-button-submit:hover {
+  background: #1d4ed8;
+}
+
+@media (max-width: 960px) {
+  .search-bar {
+    padding: 16px 20px 0;
+  }
+
+  .pool-search-input {
+    max-width: 100%;
+  }
+
+  .pool-stats {
+    padding: 16px 20px 0;
+  }
+
+  .table-shell {
+    padding: 16px 20px 20px;
+  }
+
+  .pool-footer {
+    padding: 16px 20px 24px;
+  }
+}

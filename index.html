@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>面试过程记录</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="panel">
+        <header class="toolbar">
+          <div class="toolbar-copy">
+            <div class="toolbar-title-row">
+              <h1>面试过程记录</h1>
+              <button
+                id="toggle-stats-button"
+                type="button"
+                class="icon-button"
+                aria-label="隐藏统计数据"
+                aria-pressed="true"
+                title="隐藏统计数据"
+              >
+                <span aria-hidden="true">🙈</span>
+              </button>
+            </div>
+          </div>
+          <div class="toolbar-actions">
+            <button id="add-button" type="button">新增记录</button>
+            <button id="save-button" type="button" class="primary">保存</button>
+            <button id="reload-button" type="button">刷新</button>
+            <button id="logout-button" type="button">返回公共池</button>
+          </div>
+        </header>
+        <div id="stats" class="stats" aria-label="统计信息"></div>
+        <div id="message" class="message" aria-live="polite"></div>
+        <div class="search-container">
+          <button id="search-button" type="button" class="search-button">🔍 搜索</button>
+          <input id="search-input" type="text" class="search-input" placeholder="按公司名称搜索..." style="display: none;">
+          <button id="clear-search-button" type="button" class="clear-search-button" style="display: none;">✕</button>
+        </div>
+        <div class="table-shell">
+          <table class="interview-table">
+            <thead id="table-head"></thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+        <div id="pagination" class="pagination" aria-label="分页"></div>
+      </section>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

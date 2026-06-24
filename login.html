@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>面试记录共享 - 登录</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      .login-page {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 32px;
+        background: #f7f8fa;
+      }
+
+      .login-card {
+        width: 100%;
+        max-width: 400px;
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        border-radius: 18px;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+        padding: 48px 40px;
+        text-align: center;
+      }
+
+      .login-title {
+        font-size: 28px;
+        font-weight: 700;
+        color: #1f2937;
+        margin: 0 0 8px;
+      }
+
+      .login-subtitle {
+        font-size: 14px;
+        color: #6b7280;
+        margin: 0 0 32px;
+      }
+
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .login-input {
+        width: 100%;
+        padding: 14px 16px;
+        border: 1px solid #d1d5db;
+        border-radius: 12px;
+        font-size: 16px;
+        color: #1f2937;
+        background: #ffffff;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        text-align: center;
+        letter-spacing: 2px;
+      }
+
+      .login-input:focus {
+        outline: none;
+        border-color: #2563eb;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+      }
+
+      .login-input::placeholder {
+        color: #9ca3af;
+        letter-spacing: normal;
+      }
+
+      .login-button {
+        width: 100%;
+        padding: 14px 24px;
+        background: #2563eb;
+        color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+
+      .login-button:hover {
+        background: #1d4ed8;
+      }
+
+      .login-button:disabled {
+        background: #9ca3af;
+        cursor: not-allowed;
+      }
+
+      .login-error {
+        color: #b91c1c;
+        font-size: 14px;
+        min-height: 20px;
+        margin-top: 8px;
+      }
+
+      .login-footer {
+        margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid #e5e7eb;
+        color: #9ca3af;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="login-page">
+      <div class="login-card">
+        <h1 class="login-title">面试记录共享</h1>
+        <p class="login-subtitle">输入邀请码查看面试信息</p>
+        <form class="login-form" id="login-form">
+          <input
+            id="invite-code-input"
+            class="login-input"
+            type="text"
+            placeholder="请输入邀请码"
+            autocomplete="off"
+            autofocus
+          />
+          <button id="login-button" class="login-button" type="submit">
+            登录
+          </button>
+        </form>
+        <div id="login-error" class="login-error"></div>
+        <div class="login-footer">
+          面试记录互助共享平台
+        </div>
+      </div>
+    </main>
+    <script type="module" src="/login.js"></script>
+  </body>
+</html>
