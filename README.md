@@ -49,8 +49,8 @@
 bash scripts/start.sh
 
 # 访问应用
-# 共享池页面：http://localhost:3000/pool.html
-# 个人记录页面：http://localhost:3000/index.html?userId=xxx
+# 共享池页面：http://localhost:8888/pool.html
+# 个人记录页面：http://localhost:8888/index.html?userId=xxx
 ```
 
 ### 停止项目
