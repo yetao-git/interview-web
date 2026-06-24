@@ -332,7 +332,7 @@ export function createServer({ rootDir = DEFAULT_ROOT_DIR, dataFile = DEFAULT_DA
 if (process.argv[1] === __filename) {
   const port = 8888;
   const server = createServer();
-  server.listen(port, '127.0.0.1', () => {
-    console.log(`server listening on http://127.0.0.1:${port}`);
+  server.listen(port, '0.0.0.0', () => {
+    console.log(`server listening on http://0.0.0.0:${port}`);
   });
 }
