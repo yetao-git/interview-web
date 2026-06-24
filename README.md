@@ -92,7 +92,6 @@ interview-web/
 │   └── server.test.js  # 服务器测试
 └── data/               # 数据目录（已忽略）
     ├── config.json     # 用户配置
-    ├── interviews.json # 面试记录
     ├── public-pool.json # 共享池数据
     └── users/          # 用户数据目录
 ```

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "demo-009",
+    "companyName": "滴滴",
+    "interviewTime": "2026-06-21 14:00:00",
+    "interviewType": "线上",
+    "stage": "1 面",
+    "interviewFeedback": "待面试",
+    "salaryRange": "26k-36k",
+    "positionTitle": "前端工程师",
+    "location": "北京",
+    "notes": "一面技术面，问了 CSS 和 JavaScript 相关问题。"
+  },
+  {
+    "id": "demo-010",
+    "companyName": "快手",
+    "interviewTime": "2026-06-17 10:30:00",
+    "interviewType": "线上",
+    "stage": "2 面",
+    "interviewFeedback": "推进中",
+    "salaryRange": "28k-38k",
+    "positionTitle": "高级前端工程师",
+    "location": "北京",
+    "notes": "二面技术面，问了前端架构设计相关问题。"
+  }
+]

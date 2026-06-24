@@ -1,0 +1,38 @@
+[
+  {
+    "id": "demo-006",
+    "companyName": "百度",
+    "interviewTime": "2026-06-22 10:00:00",
+    "interviewType": "线上",
+    "stage": "1 面",
+    "interviewFeedback": "推进中",
+    "salaryRange": "25k-35k",
+    "positionTitle": "前端开发工程师",
+    "location": "北京",
+    "notes": "一面技术面，问了 JavaScript 基础和算法相关问题。"
+  },
+  {
+    "id": "demo-007",
+    "companyName": "网易",
+    "interviewTime": "2026-06-19 15:00:00",
+    "interviewType": "线上",
+    "stage": "2 面",
+    "interviewFeedback": "无反馈",
+    "salaryRange": "28k-38k",
+    "positionTitle": "高级前端工程师",
+    "location": "杭州",
+    "notes": "二面技术面，问了 React 性能优化相关问题。"
+  },
+  {
+    "id": "demo-008",
+    "companyName": "小米",
+    "interviewTime": "2026-06-12 09:00:00",
+    "interviewType": "线下",
+    "stage": "HR 面",
+    "interviewFeedback": "已入职",
+    "salaryRange": "30k-40k",
+    "positionTitle": "前端工程师",
+    "location": "北京",
+    "notes": "HR 面试通过，已入职。"
+  }
+]

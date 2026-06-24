@@ -1,0 +1,62 @@
+[
+  {
+    "id": "demo-001",
+    "companyName": "字节跳动",
+    "interviewTime": "2026-06-20 10:00:00",
+    "interviewType": "线上",
+    "stage": "2 面",
+    "interviewFeedback": "推进中",
+    "salaryRange": "30k-40k",
+    "positionTitle": "前端工程师",
+    "location": "北京",
+    "notes": "一面技术面，问了 React 和 Node.js 相关问题，面试官反馈不错。"
+  },
+  {
+    "id": "demo-002",
+    "companyName": "阿里巴巴",
+    "interviewTime": "2026-06-18 14:00:00",
+    "interviewType": "线上",
+    "stage": "HR 面",
+    "interviewFeedback": "待入职",
+    "salaryRange": "35k-45k",
+    "positionTitle": "高级前端工程师",
+    "location": "杭州",
+    "notes": "HR 面试通过，正在谈薪资。"
+  },
+  {
+    "id": "demo-003",
+    "companyName": "腾讯",
+    "interviewTime": "2026-06-15 09:30:00",
+    "interviewType": "线下",
+    "stage": "Offer",
+    "interviewFeedback": "已入职",
+    "salaryRange": "32k-42k",
+    "positionTitle": "前端开发工程师",
+    "location": "深圳",
+    "notes": "已拿到 Offer 并入职。"
+  },
+  {
+    "id": "demo-004",
+    "companyName": "美团",
+    "interviewTime": "2026-06-10 16:00:00",
+    "interviewType": "线上",
+    "stage": "1 面",
+    "interviewFeedback": "无反馈",
+    "salaryRange": "25k-35k",
+    "positionTitle": "前端工程师",
+    "location": "北京",
+    "notes": "一面技术面，问了 Vue 和 TypeScript 相关问题。"
+  },
+  {
+    "id": "demo-005",
+    "companyName": "京东",
+    "interviewTime": "2026-06-05 11:00:00",
+    "interviewType": "线上+线下",
+    "stage": "3 面",
+    "interviewFeedback": "主动取消",
+    "salaryRange": "28k-38k",
+    "positionTitle": "资深前端工程师",
+    "location": "北京",
+    "notes": "三面技术面，问了系统设计相关问题。后来主动取消了。"
+  }
+]

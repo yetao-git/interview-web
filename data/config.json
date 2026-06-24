@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "userId": "demoUser001abc123xyz",
+      "password": "demo123",
+      "name": "演示用户",
+      "role": "admin"
+    },
+    {
+      "userId": "demoUser002def456uvw",
+      "password": "member1",
+      "name": "张三",
+      "role": "member"
+    },
+    {
+      "userId": "demoUser003ghi789rst",
+      "password": "member2",
+      "name": "李四",
+      "role": "member"
+    }
+  ]
+}
